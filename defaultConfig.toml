@@ -1,0 +1,61 @@
+[commit_types]
+[[commit_types.types]]
+name = "FIX"
+description = "For bug fixes mostly used in stable version but also valid if you are fixing a recent bug in development version"
+color = "#FF0000"
+
+[[commit_types.types]]
+name = "REF"
+description = "For refactoring when a feature is heavily rewritten"
+color = "#FFA500"
+
+[[commit_types.types]]
+name = "ADD"
+description = "For adding new modules"
+color = "#00FF00"
+
+[[commit_types.types]]
+name = "REM"
+description = "For removing resources removing dead code, removing views, removing modules, …"
+color = "#800080"
+
+[[commit_types.types]]
+name = "REV"
+description = "For reverting commits if a commit causes issues or is not wanted reverting it is done using this tag"
+color = "#0000FF"
+
+[[commit_types.types]]
+name = "MOV"
+description = "For moving files use git move and do not change content of moved file otherwise Git may lose track and history of the file also used when moving code from one file to another"
+color = "#008080"
+
+[[commit_types.types]]
+name = "REL"
+description = "For release commits new major or minor stable versions"
+color = "#FFFF00"
+
+[[commit_types.types]]
+name = "IMP"
+description = "For improvements most of the changes done in development version are incremental improvements not related to another tag"
+color = "#FFC0CB"
+
+[[commit_types.types]]
+name = "MERGE"
+description = "For merge commits used in forward port of bug fixes but also as main commit for feature involving several separated commits"
+color = "#A52A2A"
+
+[[commit_types.types]]
+name = "CLA"
+description = "For signing the Odoo Individual Contributor License"
+color = "#D2691E"
+
+[[commit_types.types]]
+name = "I18N"
+description = "For changes in translation files"
+color = "#4B0082"
+
+[[commit_types.types]]
+name = "WIP"
+description = "For work in progress commits, indicating that the work is not yet complete"
+color = "#808080"
+
